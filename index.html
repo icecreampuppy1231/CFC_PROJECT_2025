@@ -12,6 +12,11 @@
 </head>
 <body>
 
+    <div class="icon" onclick="openWindow('aboutWindow')">
+        <img src="icon1.jpg" alt="About Me Icon" style="width: 48px; height: 48px;">
+        <p>About Me</p>
+    </div>
+
     <div class="about-me">
         <div class="window" id="aboutWindow" style="width: 320px; top: 200px; left: 100px; position: absolute;" onmousedown="bringToFront('aboutWindow')">
             <div class="title-bar" style="background:#df96ba;" onmousedown="dragStart(event, 'aboutWindow')">
