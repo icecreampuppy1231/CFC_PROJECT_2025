@@ -35,3 +35,9 @@ body {
 .title-bar-text {
     color: whitesmoke;
 }
+
+.about-me {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    text-align: center;
+}
